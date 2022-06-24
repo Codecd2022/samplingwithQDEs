@@ -6,4 +6,7 @@
 % samplepoint(12,1) as follows
 
 
-samplepoint(12,1)
+vsamples = samplepoint(12,1)
+for k = 1:12
+  vsamples(k)
+end
